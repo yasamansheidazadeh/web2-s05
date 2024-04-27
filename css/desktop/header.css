@@ -1,0 +1,89 @@
+header{
+    width: 100%;
+    height: 170px;
+    background-color: white;
+}
+header .banner{
+    width: 100%;
+    height: 60px;
+}
+header .banner img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+header .center{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-flow: row wrap;
+}
+header .center .logo{
+    width: 10%;
+    height: inherit;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .center .search{
+    width: 75%;
+    height: inherit;
+    background-color:white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+}
+header .center .search svg{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    fill: lightslategray;
+}
+header .center .search input[type=text]{
+width: 600px;
+height: 40px;
+border-radius: 5px;
+border: unset;
+background-color: rgb(227, 227, 227);
+outline: unset;
+padding-right: 35px;
+line-height: 40px;
+}
+header .center .search input[type=text]::placeholder{
+    font-family: iranyekan;
+    font-size: 14px;
+}
+header .center .login{
+    width: 15%;
+    height: inherit;
+    background-color:white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+}
+header .center .login a{
+    display: flex;
+    flex-flow: row wrap;
+    text-decoration: none;
+    font-size: 14px;
+    column-gap: 5px;
+    align-items: center;
+    border: 1px solid lightslategray;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+header .center .login .basket{
+    outline: unset;
+    border: unset;
+    width: 30px;
+    height: 30px;
+}
+
+
